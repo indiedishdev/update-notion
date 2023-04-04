@@ -41,7 +41,7 @@ if (urlFound) {
                 }
                 : {}),
             [params.notionProperties.githubUrl]: params.pullRequest.href,
-            "PR merged time": !params.isMerged
+            "PR merged time": params.isMerged
                 ? {
                     start: params.notionProperties.mergedAt,
                 }
